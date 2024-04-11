@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "5f0e4640-0be9-4eaa-80b9-c406a11b1cff",
+		"name": "VGH-Gen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29237449"
+	},
+	"item": [
+		{
+			"name": "ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/ping",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FHIR / upload (A.NGS csv)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n    \"NGS_csv\": \"分生號碼,報告號碼,病患姓名,病歷號,檢體類別,蠟塊號,Tumor purity %,Tumor type,Diagnosis,檢測項目,臨床主治醫師,病理醫師,報告日期\\nPT21001,S110-99324,葉奕成,12345678,FFPE,S109-44572I,55,Esophageal cancer,Esophageal cancer,ACTOnco,葉奕成,葉奕成,2021/8/23\\nPG21001,S110-99323,葉奕成,12345683,Blood,,,Non-small cell carcinoma,\\\"Lung, adenocarcinoma\\\",Guardant 360   ,葉奕成,葉奕成,2021/8/20\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/fhir/up",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"fhir",
+						"up"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FHIR / status",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"caseId\": \"case-20231127022928\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/fhir/status",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"fhir",
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

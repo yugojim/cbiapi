@@ -1,0 +1,11 @@
+No,分生號碼,報告號碼,病患姓名,病歷號,檢體別,蠟塊號,Tumor purity %,Tumor type,Diagnosis,標本組織部位來源,檢測項目,臨床主治醫師,病理醫師,報告日期,update
+1,F19001,S108-98613,林俊宏,31756464,FFPE,S108-25218B,50,Lung Adenocarcinoma,Metastatic adenocarcinoma,,Oncomine Focus Assay,邱昭華,葉奕成,2019-10-16,OK
+2,F19002,S108-98772,陳芳如,44067007,FFPE,S108-44305A,70,Breast Cancer,Metastatic carcinoma,,Oncomine Focus Assay,劉峻宇,葉奕成,2019-11-08,OK
+3,F19003,S108-98773,崔健偉,14567089,FFPE,S108-48574A,70,Lung Adenocarcinoma,Metastatic adenocarcinoma,,Oncomine Focus Assay,劉峻宇,葉奕成,2019-11-08,OK
+4,F19004,S108-98787,莊佳敏,44623236,FFPE,S108-47840C,80,Non-Small Cell Lung Cancer,Metastatic carcinoma,,Oncomine Focus Assay,邱昭華,葉奕成,2019-11-14,OK
+5,F19005,S108-98931,尤雲白,45460148,FFPE,S108-51175A,90,Non-Small Cell Lung Cancer,"Malignant tumor, compatible with sarcomatoid carcinoma",,Oncomine Focus Assay,趙大中,葉奕成,2019-11-22,OK
+6,F19007,S108-99108,李育勳,43535622,FFPE,S108-00001A,50,Breast Cancer,Metastatic carcinoma,,Oncomine Focus Assay,劉峻宇,葉奕成,2019-12-18,OK
+7,F19008,S108-99134,高珮綺,45884740,FFPE,S108-47975A,70,Non-Small Cell Lung Cancer,Sarcomatoid neoplasm,,Oncomine Focus Assay,黃煦晴,葉奕成,2019-12-27,OK
+8,F20001,S109-99051,張結坤,42288824,FFPE,S109-00673A,80,Lung Adenocarcinoma,Adenocarcinoma,,Oncomine Focus Assay,邱昭華,葉奕成,2020-01-20,OK
+9,F20002,S109-99206,尹正文,44215761,FFPE,S109-06420A,60,Lung Adenocarcinoma,Metastatic adenocarcinoma,,Oncomine Focus Assay,羅永鴻,葉奕成,2020-03-06,OK
+10,F20003,S109-99207,張結坤,42288824,FFPE,S107-26619A,80,Lung Adenocarcinoma,Adenocarcinoma,,Oncomine Focus Assay,邱昭華,葉奕成,2020-03-06,OK

@@ -1,0 +1,5 @@
+numpy==1.24.3
+pandas==2.1.1
+jsons==1.6.3
+json5==0.9.14
+openpyxl==3.0.10

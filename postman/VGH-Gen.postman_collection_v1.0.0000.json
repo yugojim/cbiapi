@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "5f0e4640-0be9-4eaa-80b9-c406a11b1cff",
+		"name": "VGH-Gen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29237449"
+	},
+	"item": [
+		{
+			"name": "ping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{host}}/ping",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FHIR / upload",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n    \"reports\": [\"M111-10004_(PT22083)\", \"M111-10006_(PF22124)\"] \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/fhir/up",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"fhir",
+						"up"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FHIR / status",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"caseId\": \"case-20231127022928\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{host}}/fhir/status",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"fhir",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cBioApi: i / cbio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "40.76.186.200:20080/i/cbio/import",
+					"host": [
+						"40",
+						"76",
+						"186",
+						"200"
+					],
+					"port": "20080",
+					"path": [
+						"i",
+						"cbio",
+						"import"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cBioApi: i / status",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"caseId\": \"case-20231107104835\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "40.76.186.200:20080/i/cbio/status",
+					"host": [
+						"40",
+						"76",
+						"186",
+						"200"
+					],
+					"port": "20080",
+					"path": [
+						"i",
+						"cbio",
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
